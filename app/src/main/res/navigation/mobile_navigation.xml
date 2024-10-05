@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/Home">
+
+    <fragment
+        android:id="@+id/Home"
+        android:name="com.aniversario.viajes.Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/Tour"
+        android:name="com.aniversario.viajes.Tour"
+        tools:layout="@layout/fragment_tour" />
+
+    <fragment
+        android:id="@+id/Destinos"
+        android:name="com.aniversario.viajes.Destinos"
+        tools:layout="@layout/fragment_destinos" />
+
+    <fragment
+        android:id="@+id/Taxis"
+        android:name="com.aniversario.viajes.Taxis"
+        tools:layout="@layout/fragment_taxis" />
+
+    <fragment
+        android:id="@+id/Informacion"
+        android:name="com.aniversario.viajes.Informacion"
+        tools:layout="@layout/fragment_informacion" />
+
+</navigation>
